@@ -16,7 +16,7 @@ const addEventOnElem = function (elem, type, callback) {
 
 
 
-/**
+/** 
  * toggle navbar
  */
 
@@ -56,3 +56,14 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+// faq
+function toggleAnswer(index) {
+  const faqQuestion = document.querySelectorAll('.faq-question')[index - 1];
+  const faqAnswer = document.querySelectorAll('.faq-answer')[index - 1];
+
+  faqQuestion.classList.toggle('active');
+  faqAnswer.style.maxHeight = faqQuestion.classList.contains('active') ? faqAnswer.scrollHeight + 'px' : 0;
+}
+// end faq
+

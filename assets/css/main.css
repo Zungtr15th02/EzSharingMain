@@ -1,0 +1,729 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+a,
+img {
+  margin: auto;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding-inline: 15px;
+}
+
+.imgfluid {
+  display: block;
+  width: 100%;
+}
+
+/* css chung content*/
+.feature__ezsharing {
+  background-color: #e1fdff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 1400px;
+  margin: auto;
+}
+
+.feature__ezsharing--content {
+  padding-bottom: 40px;
+}
+
+.feature__ez--generalct {
+  height: 400px;
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 30px;
+}
+
+.feature__ez--link {
+  text-decoration: none;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 41px;
+  padding: 5px 20px;
+  color: black;
+  font-weight: bold;
+  width: 280px;
+}
+
+/* end css chung content */
+
+/* content 1 */
+.feature__ezsharing--title {
+  text-align: center;
+  font-size: 48px;
+  padding: 20px 0;
+  color: black;
+}
+
+.feature__ez--contentleft {
+  display: flex;
+  margin: 20px 50px;
+  gap: 20px;
+}
+
+.feature__ez--itemright {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature__ez--bio {
+  background: linear-gradient(180deg, #99ccff 0%, #98ffff 100%);
+  text-align: center;
+  height: 826px;
+  width: 526px;
+  border-radius: 15px;
+}
+
+.feature__ez--privatebio {
+  margin-top: 70px;
+}
+
+.feature__ez--bioimg {
+  margin-top: 20px;
+}
+
+.feature__ez--meaandevat {
+  background: linear-gradient(180deg, #7ffeff 0%, #b7ffb5 100%);
+  height: 400px;
+}
+
+.feature__ez--privetrmeaandvat {
+  margin-top: 25px;
+}
+
+.feature__ez--landingpage {
+  background: linear-gradient(180deg, #fbdf7c 0%, #d5ffc7 100%);
+  height: 400px;
+}
+
+.feature__ez--privateland {
+  margin-top: 20px;
+}
+
+.feature__ez--emailmkt {
+  background: linear-gradient(180deg, #7ffeff 0%, #b7ffb5 100%);
+  height: 400px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.feature__ez--emailimg {
+  margin-top: 20px;
+}
+
+.feature__ez--privateemail {
+  margin-top: 30px;
+}
+
+.feature__ez--privatefunnel {
+  margin-top: 31px;
+}
+
+.feature__ez--funnelmkt {
+  background: linear-gradient(180deg, #fbdf7c 0%, #d5ffc7 100%);
+  height: 400px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* end content 1 */
+
+/* content 2 */
+.feature__ez--content2 {
+  display: flex;
+  gap: 20px;
+  /* Khoảng cách giữa các cột */
+  margin: 20px 50px;
+}
+
+.feature__ez--affilidate_mkt {
+  background: linear-gradient(180deg, #fecaad 0%, #ffd5f8 100%);
+  width: 910px;
+}
+
+.feature__ez--privateaffi {
+  margin-top: 30px;
+}
+
+.feature__ez--Store_ol {
+  background: linear-gradient(180deg, #99ccff 0%, #98ffff 100%);
+  width: 365px;
+}
+
+.feature__ez--privatestr {
+  margin-top: 27px;
+}
+
+.feature__ez--desc {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+/* end content 2 */
+
+/* content 3 */
+.feature__ez--content3 {
+  display: flex;
+  gap: 25px;
+  margin-left: 50px;
+}
+
+.feature__ez--crm {
+  width: 520px;
+  background: linear-gradient(180deg, #fbdf7c 0%, #d5ffc7 100%);
+}
+
+.feature__ez--privatecrm {
+  margin-top: 40px;
+}
+
+.feature__ez--academy {
+  width: 365px;
+  background: linear-gradient(180deg, #fbdf7c 0%, #d5ffc7 100%);
+}
+
+.feature__ez--acaimg {
+  margin-top: 8px;
+}
+
+.feature__ez--privateaca {
+  margin-top: 25px;
+}
+
+.feature__ez--testing {
+  width: 365px;
+  background: linear-gradient(180deg, #cecaff 0%, #f3d2da 100%);
+}
+
+.feature__ez--testimg {
+  margin-top: 17px;
+}
+
+.feature__ez--privatetest {
+  margin-top: 75px;
+}
+
+/* end content 3 */
+
+/* so sanh các tính năng */
+
+.feature__ez--comparison {
+  width: 1327px;
+  margin: auto;
+  display: flex;
+}
+
+.link__ez--VS .VS {
+  position: absolute;
+  z-index: 1;
+  margin-left: 45%;
+  width: 103px;
+  margin-top: 120px;
+}
+
+.box__ez--comparision {
+  width: 638px;
+  height: 518px;
+  background-image: url(/assets/Vector\ 5.gif);
+  border-radius: 20px;
+}
+.box__ez--comparision1 {
+  width: 638px;
+  height: 518px;
+  background-image: url(/assets/Folder1.gif);
+  border-radius: 20px;
+}
+.link__ez--comparision {
+  margin: 100px 0 0 55px;
+}
+
+.link__ez--comparision1 {
+  width: 580px;
+  height: 126px;
+  
+}
+
+.link__ez--comparision2 {
+  width: 580px;
+  height: 126px;
+
+}
+
+.link__ez--compades {
+  margin-top: 60px;
+}
+
+.link__ez--compades h2 {
+  width: 210px;
+  font-size: 24px;
+  font-weight: 700;
+  height: 29px;
+  color: rgba(12, 12, 12, 1);
+  margin: auto;
+}
+
+.link__ez--compades p {
+  width: 420px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 31px;
+  align-items: center;
+  color: rgba(12, 12, 12, 1);
+  margin: auto;
+}
+
+.link__ez--comparision3 .bio-email {
+  margin: 0 0 0 100px;
+}
+
+.link__ez--comparision3 .scan {
+  margin: 0 0 0 40px;
+}
+
+.link__ez--comparision3 .marketing {
+  margin: 0 0 0 35px;
+}
+
+.link__ez--comparision3 .CRM {
+  margin: 0 0 0 135px;
+}
+
+.link__ez--comparision3 .online {
+  margin: 0 0 0 90px;
+}
+
+.link__ez--compalogo img {
+  margin: 10px 0 -65px 180px;
+}
+
+.link__ez--compades2 {
+  margin-top: 30px;
+}
+
+.link__ez--compades2 h2 {
+  width: 101px;
+  font-size: 24px;
+  font-weight: 700;
+  height: 29px;
+  color: rgba(255, 255, 255, 1);
+  margin: auto;
+}
+
+.link__ez--compades2 p {
+  width: 384px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 31px;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  margin: auto;
+}
+
+/* end so sánh các tính năng */
+
+/* đa dạng đa lĩnh vực */
+.diverse__fields--show {
+  text-align: center;
+}
+
+.diverse__fields--slide img {
+  margin: auto;
+}
+.diverse__fields--dot {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(180deg, #99ccff 0%, #98ffff 100%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* End đa dạng đa lĩnh vực */
+
+/* Các chức năng hiệu quả nhất */
+
+.efficient__feature {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: rgba(225, 253, 255, 1);
+  margin: auto;
+  width: 1400px;
+}
+
+.efficient__feature--content {
+  padding-bottom: 50px;
+}
+
+.efficient__feature--setting {
+  display: flex;
+  margin-top: 10px;
+  gap: 25px;
+  margin-left: 45px;
+}
+
+.efficient__feature--Createandsetting {
+  width: 910px;
+  background: linear-gradient(180deg, #fbdf7c 0%, #d5ffc7 100%);
+  height: 400px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.efficient__feature--Creimg {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+
+.efficient__feature--privatecre {
+  margin-top: 20px;
+}
+
+.efficient__feature--measurement {
+  width: 365px;
+  background: linear-gradient(180deg, #fecaad 0%, #ffd5f8 100%);
+  height: 400px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.efficient__feature--meaimg {
+  margin-top: 25px;
+  margin: 0 auto;
+}
+
+.efficient__feature--privatemea {
+  margin-top: 30px;
+}
+
+.efficient__feature--desc {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.efficient__feature--convenient {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 25px 50px 0 50px;
+  gap: 25px;
+}
+
+.efficient__feature--connect {
+  width: 520px;
+  height: 400px;
+  background: linear-gradient(180deg, #99ccff 0%, #98ffff 100%);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.efficient__feature--concimg {
+  margin-top: 40px;
+}
+
+.efficient__feature--privateconc {
+  margin-top: 53px;
+}
+
+.efficient__feature--encard {
+  background: linear-gradient(180deg, #99ccff 0%, #98ffff 100%);
+  height: 400px;
+  width: 365px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.efficient__feature--endimg {
+  margin-top: 30px;
+}
+
+.efficient__feature--privateend {
+  margin-top: 58px;
+}
+
+.efficient__feature--meas {
+  background: linear-gradient(180deg, #fecaad 0%, #ffd5f8 100%);
+  height: 400px;
+  width: 365px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* End Các chức năng hiệu quả nhất */
+
+/* feedback */
+.feedback__ez--prleft {
+  position: relative;
+}
+
+.feedback__ez--prleft::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 50px solid white;
+  border-left: 70px solid rgba(127, 254, 255, 1);
+  width: 0;
+}
+
+.feedback__ez--prcenter {
+  position: relative;
+}
+
+.feedback__ez--prcenter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 50px solid white;
+  border-left: 70px solid rgba(127, 254, 255, 1);
+  width: 0;
+}
+
+.feedback__ez--prright {
+  position: relative;
+}
+
+.feedback__ez--prright::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 50px solid white;
+  border-left: 70px solid rgba(127, 254, 255, 1);
+  width: 0;
+}
+
+.feedback__ez--cmt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1400px;
+  margin: auto;
+}
+
+.feedback__ez--prleft,
+.feedback__ez--prcenter,
+.feedback__ez--prright {
+  background: linear-gradient(180deg, #7ffeff 0%, #b7ffb5 100%);
+  width: 362px;
+  height: 550px;
+  border-radius: 15px;
+}
+
+.feedback__ez--profile {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.feedback__ez--vote {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  padding-left: 30px;
+}
+
+.feedback__ez--numbvote {
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.feedback__ez--star {
+  display: flex;
+}
+
+.feedback__ez--line {
+  width: 80%;
+  border-color: black;
+}
+
+.feedback__ez--text {
+  padding: 0 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.feedback__ez--info {
+  position: absolute;
+  top: 80%;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.feedback__ez--avatar {
+  width: 61px;
+  height: 61px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.feedback__ez--job {
+  font-size: 16px;
+}
+
+.feedback__ez--name {
+  margin-bottom: 10px;
+}
+
+.feedback__ez--btn {
+  width: 50px;
+  /* Đặt kích thước theo nhu cầu của bạn */
+  height: 50px;
+  /* Đặt kích thước theo nhu cầu của bạn */
+  background: linear-gradient(180deg, #fbdf7c 0%, #d5ffc7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* Làm tròn thành hình tròn */
+  cursor: pointer;
+  /* Hiển thị con trỏ khi di chuột qua */
+}
+
+.feedback__ez--btn iconify-icon {
+  color: black;
+  /* Đặt màu sắc của icon */
+  font-size: 20px;
+}
+
+/* end feedback */
+
+/* FAQ */
+.faq__ez {
+  background: rgba(225, 253, 255, 1);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 1400px;
+  margin: auto;
+}
+
+.faq-container {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  padding: 5px;
+  color: black;
+}
+
+.faq-question.active .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+  fill: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.faq__ez--line {
+  size: 4px;
+  color: black;
+}
+
+/* end FAQ */
+
+/* footer */
+.footer__ez {
+  background: rgba(12, 12, 12, 1);
+  width: 1400px;
+  margin: auto;
+}
+
+.ft__ez--content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+  padding: 30px 0;
+}
+
+.ft__ez--coppyright,
+.ez-terms--conditions,
+.ez-privacy--policy {
+  font-size: 15px;
+}
+
+.ft__ez--social {
+  display: flex;
+  align-items: center;
+}
+
+.ft__ez--social a {
+  margin-right: 20px;
+  color: white;
+}
+
+.ft__ez--color {
+  color: rgba(199, 199, 199, 1);
+  text-decoration: none;
+}
+
+.icon--ytb,
+.icon--fb,
+.icon--tiktok {
+  font-size: 41px;
+}
+
+.ft__ez--line {
+  border-bottom: 1px solid white;
+  padding-top: 30px;
+  width: 93%;
+  margin: 0 50px;
+}
+
+.ft__ez--lineend {
+  border-top: 1px solid white;
+
+  padding-bottom: 30px;
+  width: 93%;
+  margin: 0 50px;
+}
+
+.ez-ytb--link:hover {
+  color: blue;
+}
+
+.ez-tiktok--link:hover {
+  color: blue;
+}
+
+.ez-fb--link:hover {
+  color: blue;
+}
+
+/* end footer */

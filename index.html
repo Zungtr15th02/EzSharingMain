@@ -262,7 +262,7 @@
                   <a href="#" class="feature__ez--link">Landingpage</a>
                 </div>
                 <p class="feature__ez--desc">
-                  Đơn giản hóa thiết kế landingpage, tạo form thu hút khách hàng
+                  Đơn giản thiết kế landingpage, tạo form thu hút khách hàng
                   tiềm năng
                 </p>
               </div>
@@ -316,7 +316,7 @@
           <div class="feature__ez--content3">
             <div class="feature__ez--item">
               <div class="feature__ez--crm feature__ez--generalct">
-                <img src="./assets/images/Crm.png" alt="" />
+                <img src="./assets/images/Crm.png" alt="" class="feature__ez--crmimg"/>
                 <div class="feature__ez--privatecrm">
                   <a href="#" class="feature__ez--link">CRM</a>
                 </div>
@@ -609,8 +609,14 @@
       <section class="diverse__fields">
         <h2 class="feature__ezsharing--title">Đa dạng đa lĩnh vực</h2>
         <div class="diverse__fields--show">
-          <div class="diverse__fields--slide">
+          <div class="diverse__fields--slide mySlides fade">
             <img src="./assets/images/diverse__fields.png" alt="" />
+          </div>
+          <div class="diverse__fields--slide mySlides fade">
+            <img src="https://picsum.photos/200/300" alt="" />
+          </div>
+          <div class="diverse__fields--slide mySlides fade">
+            <img src="https://picsum.photos/200/300" alt="" />
           </div>
           <div class="diverse__fields--dot">
             <span class="dot" onclick="currentSlide(1)"></span>
@@ -637,7 +643,7 @@
                 <div class="efficient__feature--privatecre">
                   <a href="#" class="efficient__feature--link feature__ez--link"
                     >Tạo và tùy chỉnh</a
-                  >
+                  > 
                 </div>
                 <p class="efficient__feature--desc">
                   Tạo tùy chỉnh phù hợp với phong cách cá nhân của bạn
@@ -1056,6 +1062,42 @@
     <!-- 
     - ionicon link
   -->
+
+  <!-- slide -->
+  <script>
+      let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Hàm để chạy tự động sau mỗi 2 giây
+  setInterval(function() {
+    plusSlides(1);
+  }, 1000);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+
+  </script>
 
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="./assets/js/script.js"></script>

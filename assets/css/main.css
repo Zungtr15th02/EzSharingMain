@@ -100,10 +100,6 @@ img {
   height: 400px;
 }
 
-.feature__ez--privateland {
-  margin-top: 20px;
-}
-
 .feature__ez--emailmkt {
   background: linear-gradient(180deg, #7ffeff 0%, #b7ffb5 100%);
   height: 400px;
@@ -161,6 +157,7 @@ img {
 .feature__ez--desc {
   font-weight: bold;
   font-size: 20px;
+  padding: 10px;
   color: black;
 }
 
@@ -177,9 +174,12 @@ img {
   width: 520px;
   background: linear-gradient(180deg, #fbdf7c 0%, #d5ffc7 100%);
 }
-
+.feature__ez--crmimg {
+  display: block;
+  margin-top: 10px;
+}
 .feature__ez--privatecrm {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .feature__ez--academy {
@@ -188,12 +188,12 @@ img {
 }
 
 .feature__ez--acaimg {
-  margin-top: 8px;
+  display: block;
 }
 
-.feature__ez--privateaca {
-  margin-top: 25px;
-}
+/* .feature__ez--privateaca {
+  margin-top: 1px;
+} */
 
 .feature__ez--testing {
   width: 365px;
@@ -201,11 +201,12 @@ img {
 }
 
 .feature__ez--testimg {
-  margin-top: 17px;
+  display: block;
+  margin-top: 10px;
 }
 
 .feature__ez--privatetest {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 /* end content 3 */
@@ -383,7 +384,7 @@ img {
 .efficient__feature--Creimg {
   width: 300px;
   height: 200px;
-  margin: auto;
+  margin-top: 25px;
 }
 
 .efficient__feature--privatecre {
@@ -399,18 +400,18 @@ img {
 }
 
 .efficient__feature--meaimg {
-  margin-top: 25px;
-  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .efficient__feature--privatemea {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .efficient__feature--desc {
   font-size: 20px;
   font-weight: bold;
   color: black;
+  padding: 10px 10px;
 }
 
 .efficient__feature--convenient {
